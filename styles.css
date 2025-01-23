@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  background-color: #204f3e;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +50,7 @@ select {
 }
 
 button {
-  background-color: #4CAF50;
+  background-color: #15a16e;
   color: white;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -123,7 +123,7 @@ body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  background-color: #204f3e;
       color: #333;
       text-align: center;
     }
@@ -159,7 +159,7 @@ body {
       padding: 12px 20px;
       font-size: 16px;
       color: #fff;
-      background: #4A90E2;
+      background: #15a16e;
       border: none;
       border-radius: 5px;
       cursor: pointer;
@@ -167,7 +167,7 @@ body {
     }
 
     #startBtn:hover {
-      background: #357ABD;
+      background: #1ad993;
     }
 
     #puzzleCanvas {
