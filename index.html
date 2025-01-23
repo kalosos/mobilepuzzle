@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пазл</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="controls">
+    <label for="difficulty">Выберите сложность:</label>
+    <select id="difficulty">
+      <option value="3">3x3</option>
+      <option value="4">4x4</option>
+      <option value="5">5x5</option>
+      <option value="6">6x6</option>
+    </select>
+<div id="timer">время: 60</div>
+  </div>
+
+  <div class="controls">
+    <label for="imageSelect">Выберите карту:</label>
+    <select id="imageSelect">
+      <option value="0">физическая карта Казахстана</option>
+      <option value="1">области Казахстана</option>
+      <option value="2">физическая карта мира</option>
+    </select>
+  </div>
+
+  <button id="startBtn">Начать игру</button>
+
+    <audio id="loseMusic" loop>
+        <source src="lose.mp3" type="audio/mpeg">
+        Ваш браузер не поддерживает воспроизведение аудио.
+    </audio>
+
+    <audio id="winMusic" loop>
+        <source src="win.mp3" type="audio/mpeg">
+        Ваш браузер не поддерживает воспроизведение аудио.
+    </audio>
+    <audio id="fonMusic" loop>
+        <source src="fon.mp3" type="audio/mpeg">
+        Ваш браузер не поддерживает воспроизведение аудио.
+    </audio>
+
+  <canvas id="puzzleCanvas"></canvas>
+
+  <script src="puzzle.js"></script>
+</body>
+</html>
