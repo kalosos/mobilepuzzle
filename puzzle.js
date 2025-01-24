@@ -7,7 +7,7 @@ const laudio = document.getElementById('loseMusic');
 const waudio = document.getElementById('winMusic');
 const faudio = document.getElementById('fonMusic');
 
-let ROWS = 4, COLS = 4;
+let ROWS = 3, COLS = 3;
 let pieces = [];
 let pieceWidth, pieceHeight;
 let draggingPiece = null;
